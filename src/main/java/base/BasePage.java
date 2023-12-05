@@ -62,9 +62,9 @@ public class BasePage
 		return url;
 	}
 
-	public void takeScreenShot(WebDriver webdriver) throws IOException {
+	public void takeScreenShot(String name) throws IOException {
 
-		File  srcFile = ((TakesScreenshot)webdriver).getScreenshotAs(OutputType.FILE);
+		File  srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
 		File desFile = new File(System.getProperty("user.dir") +"\\target\\Screenshots\\"+timeDate()+".png");
 
