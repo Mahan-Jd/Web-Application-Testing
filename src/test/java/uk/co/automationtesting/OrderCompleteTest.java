@@ -51,6 +51,8 @@ public class OrderCompleteTest extends BasePage
 		ShopHomePage shopHome = new ShopHomePage(driver);
 		shopHome.getProdOne().click();
 		
+		Thread.sleep(3000);
+		
 		ShopProductPage shopProd = new ShopProductPage(driver);
 		Select option = new Select(shopProd.getSizeOption());
 		option.selectByVisibleText("M");
@@ -68,7 +70,7 @@ public class OrderCompleteTest extends BasePage
 		cart.getPromoAddBtn().click();
 		cart.getProceedCheckoutBtn().click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		OrderFormPersInfo pInfo = new OrderFormPersInfo(driver);
 		pInfo.getGenderMr().click();
@@ -78,7 +80,7 @@ public class OrderCompleteTest extends BasePage
 		pInfo.getTermsConditionsCheckbox().click();
 		pInfo.getContinueBtn().click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		OrderFormDelivery orderDelivery = new OrderFormDelivery(driver);
 		orderDelivery.getAddressField().sendKeys("123 main street");
@@ -87,7 +89,7 @@ public class OrderCompleteTest extends BasePage
 		state.selectByVisibleText("AA");
 		orderDelivery.getPostcodeField().sendKeys("11111");		
 		orderDelivery.getContinueBtn().click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		OrderFormShipping ship = new OrderFormShipping(driver);
 		ship.getDeliveryMsgTextbox().sendKeys("I am a disco dancer");

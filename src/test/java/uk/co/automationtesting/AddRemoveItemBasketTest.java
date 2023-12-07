@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.HomePage;
@@ -17,6 +18,8 @@ import PageObjects.ShopHomePage;
 import PageObjects.ShopProductPage;
 import PageObjects.ShopingCart;
 import base.BasePage;
+
+@Listeners(resources.Listeners.class)
 
 public class AddRemoveItemBasketTest extends BasePage{
 
