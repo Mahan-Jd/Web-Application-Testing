@@ -45,7 +45,7 @@ public class BasePage
 		else {
 			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "\\src\\main\\java\\driverss\\msedgedriver.exe");
 
-			WebDriver driver = new EdgeDriver();
+			 driver = new EdgeDriver();
 		}
 
 

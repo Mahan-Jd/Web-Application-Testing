@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-06T00:13:17 IST" name="Suite" finished-at="2023-12-06T00:14:13 IST" duration-ms="56376">
+  <suite started-at="2023-12-14T22:40:23 IST" name="Suite" finished-at="2023-12-14T22:41:41 IST" duration-ms="77506">
     <groups>
     </groups>
-    <test started-at="2023-12-06T00:13:17 IST" name="Test" finished-at="2023-12-06T00:13:36 IST" duration-ms="19252">
+    <test started-at="2023-12-14T22:40:23 IST" name="Test" finished-at="2023-12-14T22:40:48 IST" duration-ms="24795">
       <class name="uk.co.automationtesting.AddRemoveItemBasketTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@649bec2e]" started-at="2023-12-06T00:13:17 IST" name="setup" finished-at="2023-12-06T00:13:22 IST" duration-ms="4809" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@34f5090e]" started-at="2023-12-14T22:40:23 IST" name="setup" finished-at="2023-12-14T22:40:31 IST" duration-ms="7432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addRemoveItem()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@649bec2e]" started-at="2023-12-06T00:13:22 IST" name="addRemoveItem" finished-at="2023-12-06T00:13:36 IST" duration-ms="14038" status="PASS">
+        <test-method signature="addRemoveItem()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@34f5090e]" started-at="2023-12-14T22:40:31 IST" name="addRemoveItem" finished-at="2023-12-14T22:40:48 IST" duration-ms="17107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRemoveItem -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@649bec2e]" started-at="2023-12-06T00:13:36 IST" name="tearDown" finished-at="2023-12-06T00:13:36 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.AddRemoveItemBasketTest@34f5090e]" started-at="2023-12-14T22:40:48 IST" name="tearDown" finished-at="2023-12-14T22:40:48 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- uk.co.automationtesting.AddRemoveItemBasketTest -->
     </test> <!-- Test -->
-    <test started-at="2023-12-06T00:13:36 IST" name="Test2" finished-at="2023-12-06T00:14:13 IST" duration-ms="37058">
+    <test started-at="2023-12-14T22:40:48 IST" name="Test2" finished-at="2023-12-14T22:41:41 IST" duration-ms="52603">
       <class name="uk.co.automationtesting.OrderCompleteTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@78123e82]" started-at="2023-12-06T00:13:36 IST" name="setup" finished-at="2023-12-06T00:13:40 IST" duration-ms="3960" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@505fc5a4]" started-at="2023-12-14T22:40:48 IST" name="setup" finished-at="2023-12-14T22:40:53 IST" duration-ms="5414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@78123e82]" started-at="2023-12-06T00:13:40 IST" name="endToEndTest" finished-at="2023-12-06T00:14:13 IST" duration-ms="32970" status="PASS">
+        <test-method signature="endToEndTest()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@505fc5a4]" started-at="2023-12-14T22:40:53 IST" name="endToEndTest" finished-at="2023-12-14T22:41:40 IST" duration-ms="46983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@78123e82]" started-at="2023-12-06T00:14:13 IST" name="tearDown" finished-at="2023-12-06T00:14:13 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.OrderCompleteTest@505fc5a4]" started-at="2023-12-14T22:41:40 IST" name="tearDown" finished-at="2023-12-14T22:41:41 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
